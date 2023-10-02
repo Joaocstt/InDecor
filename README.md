@@ -1,6 +1,6 @@
 # Projeto de um Website em HTML5 e CSS3
 
-Este projeto apresenta um website simples desenvolvido utilizando HTML5 e CSS3. O principal objetivo por trás deste projeto foi o aprimoramento dos meus conhecimentos em CSS3, com foco especial na implementação de responsividade por meio de media queries.
+Este projeto apresenta um website simples desenvolvido utilizando HTML5 e CSS3 em parceria com o canal Hora de Codar. O principal objetivo por trás deste projeto foi o aprimoramento dos meus conhecimentos em CSS3, com foco especial na implementação de responsividade por meio de media queries.
 
 **Tecnologias Empregadas**
 

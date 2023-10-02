@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InDecor</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+</head>
+
+<body>
+   <header id="cabecalho-header">                                       
+        <div id="avisos">                                                                               <!-- Conteudo da parte esquerda do Header -->
+            <h2>InDecor</h2>
+            <p class="sobre-evento">
+                Um evento para revolucionar a sua criatividade  
+            </p>
+            <p>Data do evento: </p>
+            <p class="evento-data">
+                Domingo, 26 de Março, a partir das 14h
+            </p>
+        </div>
+        
+        <div id="formulario-avisos">                                                               <!-- Conteudo da parte direita do Header -->
+            <p>Preencha o formulário para receber detalhes do evento</p>
+            <form>
+                <div class="form-group">
+                    <label>Nome</label>
+                    <input type="text" name="name" placeholder="Digite seu nome">
+                </div>
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" name="email" placeholder="Digite seu e-mail">
+                </div>
+                <div class="form-group">
+                    <label>Telefone</label>
+                    <input type="number" name="phone" placeholder="Número de Whatsapp">
+                </div>
+                <div class="form-group">
+                    <label>Principal interesse</label>
+                    <select name="interesse" id="int">
+                        <option value="" disabled selected>Selecione</option>
+                        <option value="apartamento">Apartamentos</option>
+                        <option value="casa">Casas</option>
+                        <option value="jardim">Jardins</option>
+                        <option value="Outros">Outros</option>
+                    </select>
+                </div>
+                <input type="button" class="btn" value="Quero me inscrever">
+            </form>
+        </div>
+   </header>
+
+   <section id="section-beneficios">
+        <h2>O que você vai aprender:</h2>
+        <div class="beneficios">
+
+            <div class="beneficio">
+                <div id="beneficio-1" class="beneficio-img"></div>
+                    <p>Alguma coisa muito legal, que vai fazer a diferença na vida do participante</p>
+            </div>
+
+            
+            <div class="beneficio">
+                <div id="beneficio-2" class="beneficio-img"></div>
+                    <p>Alguma coisa muito legal, que vai fazer a diferença na vida do participante</p>
+               
+            </div>
+            <div class="beneficio">
+                <div id="beneficio-3" class="beneficio-img"></div>
+                    <p>Alguma coisa muito legal, que vai fazer a diferença na vida do participante</p>
+            </div>
+        </div>
+   </section>
+
+   <section id="localizacao">
+        <div id="endereco">
+            <i class="bi bi-geo-alt-fill"></i>
+            <div id="detalhe">
+                <p>Rua vicente pizzon, 152</p>
+                <p>Bairro Castelo Branco</p>
+                <p>Abertura 16h</p>
+            </div>
+        </div>
+
+        <div id="sobre-local">
+            <h3>Local de destaque</h3>
+            <p>
+                O evento será realizado em um local prestigiado pelo amantes de design de interiores, onde teremos exemplos de vários ambientes, tanto no internos como no externos.
+            </p>
+        </div>
+   </section>
+
+   <section id="detalhe-evento">
+    <div class="detalhe" id="detalhe-1">
+        <img src="img/hrz-3.jpg" alt="Sala de estar">
+        <div class="detalhe-descricao">
+            <h3>Conheça os ambientes que você vai aprender a decorar</h3>
+        </div>
+    </div>
+
+    <div class="detalhe" id="detalhe-2">
+        <div class="detalhe-descricao">
+            <h3>Objetos</h3>
+            <ul>
+                <li>Cadeiras</li>
+                <li>Mesas</li>
+                <li>Espelhos</li>
+                <li>Plantas</li>
+                <li>Cortinas</li>
+                <li>E muito mais...</li>
+            </ul>
+        </div>
+        <img src="img/hrz-4.jpg" alt="Sala de jantar decorada">
+    </div>
+
+    <div class="detalhe" id="detalhe-3">
+        <img src="img/hrz-5.jpg" alt="Sala decorada">
+        <div class="detalhe-descricao">
+            <h3>Detalhes</h3>
+            <ul>
+                <li>Posicionamento</li>
+                <li>Aproveitamento de espaço</li>
+                <li>Combinações de cores</li>
+                <li>Organização</li>
+                <li>E muito mais...</li>
+            </ul>
+        </div>
+    </div>
+   </section>
+
+   <section id="cta">
+    <h3>Gostou? Então se inscreva: </h3>
+    <button class="btn">Solicitar Inscrição</button>
+   </section>
+
+   <footer>
+        <h3>InDecor</h3>
+        <p>A evolução da decoração de interiores</p>
+        <p><span>Entre em contato:</span> oi@indecor.com.br</p>
+        <p><span>Ou pelo telefone:</span>(68)99910-6046</p>
+   </footer>
+</body>
+</html>
